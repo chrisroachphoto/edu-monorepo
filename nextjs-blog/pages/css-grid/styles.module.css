@@ -1,0 +1,34 @@
+.color-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.color-item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 12em;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    align-items: end;
+    position: relative;
+}
+
+.color-item div{
+    display: grid;
+    position: absolute;
+    background-color: #4e4e4e;
+    padding: 5px;
+    border: 1px #4e4e4e solid;
+    border-radius: 10px;
+    color: white;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    bottom: 0;
+    right: 0;
+    justify-items: end;
+}
+
+.color-item p{
+    margin: 0;
+}
