@@ -21,3 +21,5 @@ export default function GridExample() {
     </div>
   );
 }
+
+console.log("hey dillon, its me chris!");
