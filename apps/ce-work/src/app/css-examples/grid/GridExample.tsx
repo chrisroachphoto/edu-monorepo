@@ -16,10 +16,8 @@ export default function GridExample() {
       </div>
       <div className={cx("grid-item", "beige")} id="grid-5"></div>
       <div className={cx("grid-item", "diagonal-bottom")} id="grid-6">
-        <div className={cx("text-overlay")}>Text</div>
+        <div className={cx("text-overlay")}>Text words</div>
       </div>
     </div>
   );
 }
-
-console.log("hey dillon, its me chris!");
